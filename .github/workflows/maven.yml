@@ -22,6 +22,6 @@ jobs:
         cache: maven
     - name: Junit Assignment Action
       id: assignmentAction
-      uses: acciojob/junit-github-action@v0.12
+      uses: acciojob/junit-github-action@v0.16
       env:
           ACCIO_ASGMNT_ACTION_TOKEN: ${{ secrets.ACCIO_ASGMNT_ACTION_TOKEN }}
