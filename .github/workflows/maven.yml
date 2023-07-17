@@ -9,6 +9,8 @@ on:
 jobs:
   build:
 
+    ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true
+
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
